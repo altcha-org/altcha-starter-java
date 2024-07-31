@@ -16,14 +16,13 @@ dependencyResolutionManagement {
 		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 		repositories {
 			mavenCentral()
-			maven { url 'https://jitpack.io' }
 		}
 	}
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'com.google.code.gson:gson:2.8.8'
-    implementation 'com.github.altcha-org:altcha-lib-java:v1.0.0'
+    implementation 'org.altcha.altcha:altcha:1.1.0'
 }
 
 testImplementation 'org.springframework.boot:spring-boot-starter-test'
